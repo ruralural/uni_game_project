@@ -1,21 +1,21 @@
-#Ideas for a game project
+# Ideas for a game project
 
-##Possible (non-)arcade games for references
-*starfox
-*battle tank
-*zaxxon
-
-
-##desirable genres for reference
-*
-*
+## Possible (non-)arcade games for references
+* starfox
+* battle tank
+* zaxxon
 
 
-##re-doing a classical arcade / adding a certain feature list
-*pong with MP funtion
-*snake with first pirson view
+## desirable genres for reference
+* 
+* 
 
-##creative concept ideas aka freedom of thought
-*
 
-*
+## re-doing a classical arcade / adding a certain feature list
+* pong with MP funtion
+* snake with first pirson view
+
+## creative concept ideas aka freedom of thought
+* 
+
+* 
