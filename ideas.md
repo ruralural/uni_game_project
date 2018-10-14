@@ -67,7 +67,7 @@ in order to obtain resources to proceed with a journey.
 * collect all the pieces of a map to reach a final stage/battle
 
 #### Naval Attack
-* cannons shoots only from sides
+* cannons shoots only from sides (TODO: look up how to control weapon firing direction, crate a separate weapon)
 * check if opponent's ship is located to you sides: true -> shoot, false -> take a turn to turn around
 * with upgrades shooting range can be increased
 * every attack substract health of the opponent
