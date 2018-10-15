@@ -43,9 +43,12 @@ in order to obtain resources to proceed with a journey.
 * initially covered with a fog of war
 * has a artificial borders that are closed for progression until piece of map is acquired
 #### Movement
-* one move = proceeding to the next adjacent tile
-* moving between tiles uses food/energy state
-* turning around on one hexagon (for attack) uses food/energy state
+* actual:
+	* use navmesh for pathfinding
+* obsolete:
+	* one move = proceeding to the next adjacent tile
+	* moving between tiles uses food/energy state
+	* turning around on one hexagon (for attack) uses food/energy state
 #### Ships
 * pirat armored ship
 * trading ship
@@ -68,6 +71,7 @@ in order to obtain resources to proceed with a journey.
 
 #### Naval Attack
 * cannons shoots only from sides (TODO: look up how to control weapon firing direction, crate a separate weapon)
+* create a fire points (Transform type) to create a canons on the sides spawning projectiles
 * check if opponent's ship is located to you sides: true -> shoot, false -> take a turn to turn around
 * with upgrades shooting range can be increased
 * every attack substract health of the opponent
