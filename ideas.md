@@ -38,8 +38,9 @@ in order to obtain resources to proceed with a journey.
 	meantime while we're progressing with our character going from one attacker to another
 	* naval attack shooting out of the cannons, 
 ### Detailed Overview
-#### Room/lvl
-* terrain  consists of hexagons, containing islands, rocks
+#### Map/lvl
+* terrain  consists of hexagons or rectangles
+	* create set of tiles like water, ground, rocks, (nice to have: animated water)
 * initially covered with a fog of war
 * has a artificial borders that are closed for progression until piece of map is acquired
 #### Movement
