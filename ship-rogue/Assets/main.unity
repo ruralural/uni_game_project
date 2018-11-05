@@ -184,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1164963747}
   m_LocalRotation: {x: 0.30906436, y: -0, z: -0, w: 0.95104116}
-  m_LocalPosition: {x: -0.2, y: 9.4, z: -10.9}
+  m_LocalPosition: {x: -0.2, y: 3.22, z: -3.62}
   m_LocalScale: {x: 0.23752968, y: 0.38022813, z: 0.32573292}
   m_Children: []
   m_Father: {fileID: 1340778435}
@@ -487,12 +487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c27ee094b45af4cc783dcf58ad47635d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonKeys: 20000000
-  axisKeys:
-  - positive: 119
-    negative: 115
-  - positive: 100
-    negative: 97
+  buttonKeys: 7700000073000000
+  axisKeys: []
 --- !u!114 &1872330179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,7 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axisCount: 2
-  buttonCount: 1
+  buttonCount: 2
   controller: {fileID: 1340778436}
 --- !u!4 &1872330180
 Transform:
