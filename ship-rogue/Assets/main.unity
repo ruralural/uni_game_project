@@ -184,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1164963747}
   m_LocalRotation: {x: 0.30906436, y: -0, z: -0, w: 0.95104116}
-  m_LocalPosition: {x: -0.2, y: 3.22, z: -3.62}
+  m_LocalPosition: {x: -0.02, y: 12.02, z: -12.95}
   m_LocalScale: {x: 0.23752968, y: 0.38022813, z: 0.32573292}
   m_Children: []
   m_Father: {fileID: 1340778435}
@@ -337,7 +337,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1340778431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 246.05377, y: 6.1, z: 257.8448}
+  m_LocalPosition: {x: 261.8, y: 6.1, z: 208}
   m_LocalScale: {x: 4.21, y: 2.63, z: 3.07}
   m_Children:
   - {fileID: 1164963750}
@@ -359,6 +359,7 @@ MonoBehaviour:
   timeZeroToMax: 2.5
   timeMaxToZero: 1
   timeBrakeToZero: 1
+  turnAnglePerSec: 90
 --- !u!54 &1340778437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -372,7 +373,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!1 &1722651969
 GameObject:
@@ -487,8 +488,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c27ee094b45af4cc783dcf58ad47635d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonKeys: 7700000073000000
-  axisKeys: []
+  buttonKeys: 200000007a000000
+  axisKeys:
+  - positive: 119
+    negative: 115
+  - positive: 100
+    negative: 97
 --- !u!114 &1872330179
 MonoBehaviour:
   m_ObjectHideFlags: 0
